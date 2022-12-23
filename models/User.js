@@ -7,13 +7,14 @@ const userSchema = new Schema(
             required: true,
             unique: true,
             trim: true,
-            match: /.+\@.+\..+/,
+
         },
         email: {
             type: String,
             Required: true,
             Unique: true,
             Required: true,
+            match: /.+\@.+\..+/,
         },
         thoughts: [{
             type: Schema.Types.ObjectId,
