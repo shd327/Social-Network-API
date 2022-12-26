@@ -1,5 +1,9 @@
 const { Schema, model } = require('mongoose');
 
+var validateEmail = function (email) {
+    var re = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+    return re.test(email)
+}
 const userSchema = new Schema(
     {
         username: {
@@ -14,11 +18,13 @@ const userSchema = new Schema(
             Required: true,
             Unique: true,
             Required: true,
-            match: /.+\@.+\..+/,
+            validate: [validateEmail, 'Please fill a valid email address'],
+            // match: /.+\@.+\..+/,
         },
         thoughts: [{
             type: Schema.Types.ObjectId,
             ref: "Thought"
+
         }],
         friends: [{
             type: Schema.Types.ObjectId,
@@ -34,7 +40,6 @@ const userSchema = new Schema(
 
     }
 );
-
 userSchema.virtual('friendCount').get(function () {
     return this.friends.length;
 });

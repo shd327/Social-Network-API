@@ -1,4 +1,5 @@
 const { User, Thought } = require("../models");
+const { getThoughts } = require("./thoughtController");
 
 module.exports = {
     // Get all users
@@ -45,14 +46,48 @@ module.exports = {
     },
     // Delete a user and associated apps
     deleteUser(req, res) {
+        User.findOneAndRemove({ _id: req.params.userId })
+            .then((user) => {
+                !user
+                    ? res.status(404).json({ message: 'No user with this id!' })
+                    : Thought.deleteMany({ _id: { $in: user.thoughts } })
+            }).catch((err) => {
+                console.log(err);
+                res.status(500).json(err);
+            })
 
     },
     // Add a friend
     addFriends(req, res) {
-
+        User.findOneAndUpdate(
+            { _id: req.params.userId },
+            { $addToSet: { friends: req.params.friendsId } },
+            { runValidators: true, new: true }
+        )
+            .then((user) => {
+                !user
+                    ? res.status(404).json({ message: 'No user with this id!' })
+                    : res.json(user)
+            }).catch((err) => {
+                console.log(err);
+                res.status(500).json(err);
+            })
     },
     // Remove a friend
     removeFriends(req, res) {
+        User.findByIdAndRemove(
+            { _id: req.params.userId },
+            { $pull: { friends: { reactionId: req.params.friendsId } } },
+            { runValidators: true, new: true }
+        )
+            .then((user) => {
+                !user
+                    ? res.status(404).json({ message: 'No user with this id!' })
+                    : res.json(user)
+            }).catch((err) => {
+                console.log(err);
+                res.status(500).json(err);
+            })
 
     },
 };
