@@ -64,15 +64,11 @@ npm install express
 ```
 npm install mongoose
 ```
-Or, 
+Or since the Package.Json is included you can run the below command to install all the dependencies, 
 ```
 npm i
 ```
-To run the Social Media API project enter the following command:
-```
-npm run start 
 
-```
 ## Usage
 * Ensure all depencies and above steps are fulfilled 
 * Navigate to the working directory and open a terminal and run the below command
