@@ -51,8 +51,8 @@ git clone git@github.com:SHD327/Social-Network-API.git
 ```
 {
   "dependencies": {
-    "express": "^4.17.1",
-    "mongoose": "^6.0.13"
+    "express": "^4.18.2",
+    "mongoose": "^6.8.1"
   },
 }
 
