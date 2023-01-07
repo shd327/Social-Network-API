@@ -41,10 +41,11 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 9. [ Screenshots. ](#screenshots)
 10. [ Links. ](#links)
 11. [ Resources. ](#resources)
+
 ## Installation
 * Clone the repository using:
 ```
-git clone git@github.com:SHD327/Social-Network-API.git
+git clone git@github.com:shd327/Social-Network-API.git
 ```
 * Ensure you are in the current working directory
 * Ensure all dependencies are installed as shown below installation instructions are below:
