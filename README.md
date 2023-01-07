@@ -103,10 +103,10 @@ Want to learn more please contact me at shdesai327@gmail.com
 
 
 ## Screenshots
-![](img/)
-![](img/)
-![](img/)
-![](img/)
+![](img/1.gif)
+![](img/2.gif)
+![](img/3.gif)
+![](img/4.gif)
 
 
 ## Links
