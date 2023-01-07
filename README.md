@@ -37,10 +37,9 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 4. [ License. ](#license)
 6. [ Tests. ](#tests)
 7. [ Questions. ](#questions)
-8. [ Video. ](#video)
-9. [ Screenshots. ](#screenshots)
-10. [ Links. ](#links)
-11. [ Resources. ](#resources)
+8. [ Screenshots. ](#screenshots)
+9. [ Links. ](#links)
+10.[ Resources. ](#resources)
 
 ## Installation
 * Clone the repository using:
@@ -93,14 +92,14 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
 ## Tests
 N/A
-## Questions?
-Want to see more of my work? [Github Link](https://github.com/SHD118/Team-Profile)
-<br/>
-Want to learn more please contact me at shdesai118@gmail.com
 
-## Video
+## Questions?
+Want to see more of my work? [Github Link](https://github.com/shd327)
+<br/>
+Want to learn more please contact me at shdesai327@gmail.com
 
 
 ## Screenshots
@@ -111,7 +110,8 @@ Want to learn more please contact me at shdesai118@gmail.com
 
 
 ## Links
-
+* [Github Link](https://github.com/shd327/Social-Network-API/)
+* [Video Link](https://drive.google.com/file/d/15z5ca6K1VLlstxMLDYjPT6pZnMBqMtgy/view?usp=sharing) 
 
 
 ## Resources
