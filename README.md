@@ -64,7 +64,7 @@ npm install express
 ```
 npm install mongoose
 ```
-Or since the Package.Json is included you can run the below command to install all the dependencies, 
+Or, since the Package.Json is included you can run the below command to install all the dependencies 
 ```
 npm i
 ```
