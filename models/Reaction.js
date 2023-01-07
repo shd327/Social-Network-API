@@ -22,7 +22,7 @@ const reactionSchema = new Schema(
         createdAt: {
             type: Date,
             default: () => Date.now(),
-            get: (time) => date.addDateSuffix(time),
+            get: (time) => date(time),
             // get: (time) =>  Date("<YYYY-mm-dd>")
         },
 
