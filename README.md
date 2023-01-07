@@ -35,11 +35,11 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 2. [ Installation. ](#installation)
 3. [ Usage. ](#usage)
 4. [ License. ](#license)
-6. [ Tests. ](#tests)
-7. [ Questions. ](#questions)
-8. [ Screenshots. ](#screenshots)
-9. [ Links. ](#links)
-10. [ Resources. ](#resources)
+5. [ Tests. ](#tests)
+6. [ Questions. ](#questions)
+7. [ Screenshots. ](#screenshots)
+8. [ Links. ](#links)
+9. [ Resources. ](#resources)
 
 ## Installation
 * Clone the repository using:
