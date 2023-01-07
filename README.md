@@ -39,7 +39,7 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 7. [ Questions. ](#questions)
 8. [ Screenshots. ](#screenshots)
 9. [ Links. ](#links)
-10.[ Resources. ](#resources)
+10. [ Resources. ](#resources)
 
 ## Installation
 * Clone the repository using:
