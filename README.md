@@ -3,7 +3,7 @@
 ### Siddharth Desai
 
 ## Description
-The objective here was to use Express.js, Compass, mongoose, mongoDB to build a social network where the user can have a network of friends, react, and share opinions. With the power of Insomina we can fetch data from the mongo database and oment.js was used to organize the the dates in a more wide-spread format.
+The objective here was to use Express.js, Compass, mongoose, mongoDB to build a social network API where the user can have a network of friends, react, and share opinions. With the power of Insomina we can fetch data from the mongo database and check the REST calls with Insomina
 
 
 ## User Story
@@ -115,5 +115,5 @@ Want to learn more please contact me at shdesai327@gmail.com
 
 
 ## Resources
-https://www.npmjs.com/package/mongoose
-https://www.tutorialspoint.com/mongodb/index.htm
+* https://www.npmjs.com/package/mongoose
+* https://www.tutorialspoint.com/mongodb/index.htm
